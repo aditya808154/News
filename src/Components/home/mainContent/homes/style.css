@@ -1,0 +1,33 @@
+main .container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.mainContainer {
+    width: 75%;
+    
+}
+
+.sideContainer {
+    width: 23%;
+    
+}
+
+
+
+@media screen and (max-width:768px) {
+    main .container {
+        flex-direction: column;
+    }
+
+    .mainContainer {
+        width: 100%;
+        
+    }
+
+    .sideContainer {
+        width: 100%;
+        
+    }
+}
